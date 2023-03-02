@@ -1,0 +1,13 @@
+Patika.dev Merge Sort projesi
+Soru 1: [16,21,11,8,12,22] -> Merge Sort
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+0. Aşama: Başlangıç konumu [16,21,11,8,12,22]
+
+
+**1. Aşama:** *2'ye ayrılma durumu* [16,21,11] [8,12,22]
+**2. Aşama:** *4'e ayrılma durumu* [16,21] [11] [8,12] [22]
+**3. Aşama:** *Ayrıştırılma durumu* [16] [21] [11] [8] [12] [22]
+**4. Aşama:** *Sıralanmış İlk Birleştirilme durumu* [11,16,21] [8,12,22]
+**5. Aşama:** *Son Birleştirilme durumu* [8,11,12,16,21,22]
+Big-O gösterimini yazınız.
+O(nlogn)
